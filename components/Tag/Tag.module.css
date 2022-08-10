@@ -27,10 +27,20 @@
 	background: #DE0000;
 }
 
+.red a:link,
+.red a:visited {
+	color: var(--white);
+}
+
 .grey {
 	color: var(--white);
 	background: #B3C0D9;
 	font-weight: 600;
+}
+
+.grey a:link,
+.grey a:visited {
+	color: var(--white);
 }
 
 .green {
@@ -39,9 +49,19 @@
 	font-weight: 600;
 }
 
+.green a:link,
+.green a:visited {
+	color: var(--green);
+}
+
 .primary {
 	color: var(--primary);
 	background: none;
 	border: 1px solid var(--primary);
 	font-weight: 600;
+}
+
+.primary a:link,
+.primary a:visited {
+	color: var(--primary);
 }
